@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54A5D3CC236C4223007D98DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A5D3CB236C4223007D98DB /* Assets.xcassets */; };
+		54A5D3CF236C4223007D98DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A5D3CD236C4223007D98DB /* LaunchScreen.storyboard */; };
+		54A5D3DD236C4308007D98DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A5D3DA236C4308007D98DB /* main.m */; };
+		54A5D3DE236C4308007D98DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A5D3DB236C4308007D98DB /* AppDelegate.m */; };
+		54A5D3E7236C4681007D98DB /* LTMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A5D3E6236C4681007D98DB /* LTMainViewController.m */; };
+		54A5D3EB236C47F7007D98DB /* LTFrameWorkHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54A5D3E9236C47F7007D98DB /* LTFrameWorkHelper.m */; };
+		85D751B3C797BBE339D95FF4 /* Pods_LeisureTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 907DDB37A17A03D4FE48EF3D /* Pods_LeisureTime.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		54A5D3BF236C4221007D98DB /* LeisureTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeisureTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A5D3CB236C4223007D98DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A5D3CE236C4223007D98DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54A5D3D9236C4308007D98DB /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54A5D3DA236C4308007D98DB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54A5D3DB236C4308007D98DB /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54A5D3E0236C4383007D98DB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A5D3E5236C4681007D98DB /* LTMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTMainViewController.h; sourceTree = "<group>"; };
+		54A5D3E6236C4681007D98DB /* LTMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTMainViewController.m; sourceTree = "<group>"; };
+		54A5D3E9236C47F7007D98DB /* LTFrameWorkHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTFrameWorkHelper.m; sourceTree = "<group>"; };
+		54A5D3EA236C47F7007D98DB /* LTFrameWorkHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTFrameWorkHelper.h; sourceTree = "<group>"; };
+		54D8DA442370EF2100750746 /* LeisureTime.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeisureTime.pch; sourceTree = "<group>"; };
+		737BDE7901F824E6C7A82E21 /* Pods-LeisureTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureTime.debug.xcconfig"; path = "Target Support Files/Pods-LeisureTime/Pods-LeisureTime.debug.xcconfig"; sourceTree = "<group>"; };
+		907DDB37A17A03D4FE48EF3D /* Pods_LeisureTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LeisureTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		924AF4B469032F513393DDEC /* Pods-LeisureTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LeisureTime.release.xcconfig"; path = "Target Support Files/Pods-LeisureTime/Pods-LeisureTime.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54A5D3BC236C4221007D98DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85D751B3C797BBE339D95FF4 /* Pods_LeisureTime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A5D3B6236C4221007D98DB = {
+			isa = PBXGroup;
+			children = (
+				54A5D3C1236C4221007D98DB /* LeisureTime */,
+				54A5D3C0236C4221007D98DB /* Products */,
+				78EDC08D2B55DD64FA223687 /* Pods */,
+				F472661F18569A4EA98427C6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		54A5D3C0236C4221007D98DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54A5D3BF236C4221007D98DB /* LeisureTime.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54A5D3C1236C4221007D98DB /* LeisureTime */ = {
+			isa = PBXGroup;
+			children = (
+				54A5D3E8236C47F7007D98DB /* FrameWorkHelper */,
+				54A5D3EC236C49AD007D98DB /* Data */,
+				54A5D3E4236C466E007D98DB /* Main */,
+				54A5D3D8236C4308007D98DB /* Resource */,
+			);
+			path = LeisureTime;
+			sourceTree = "<group>";
+		};
+		54A5D3D8236C4308007D98DB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				54A5D3E0236C4383007D98DB /* Info.plist */,
+				54A5D3CD236C4223007D98DB /* LaunchScreen.storyboard */,
+				54A5D3CB236C4223007D98DB /* Assets.xcassets */,
+				54A5D3DA236C4308007D98DB /* main.m */,
+				54A5D3D9236C4308007D98DB /* AppDelegate.h */,
+				54A5D3DB236C4308007D98DB /* AppDelegate.m */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		54A5D3E4236C466E007D98DB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				54A5D3E5236C4681007D98DB /* LTMainViewController.h */,
+				54A5D3E6236C4681007D98DB /* LTMainViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		54A5D3E8236C47F7007D98DB /* FrameWorkHelper */ = {
+			isa = PBXGroup;
+			children = (
+				54A5D3EA236C47F7007D98DB /* LTFrameWorkHelper.h */,
+				54A5D3E9236C47F7007D98DB /* LTFrameWorkHelper.m */,
+			);
+			path = FrameWorkHelper;
+			sourceTree = "<group>";
+		};
+		54A5D3EC236C49AD007D98DB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				54D8DA442370EF2100750746 /* LeisureTime.pch */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		78EDC08D2B55DD64FA223687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				737BDE7901F824E6C7A82E21 /* Pods-LeisureTime.debug.xcconfig */,
+				924AF4B469032F513393DDEC /* Pods-LeisureTime.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F472661F18569A4EA98427C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				907DDB37A17A03D4FE48EF3D /* Pods_LeisureTime.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54A5D3BE236C4221007D98DB /* LeisureTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A5D3D5236C4223007D98DB /* Build configuration list for PBXNativeTarget "LeisureTime" */;
+			buildPhases = (
+				D95086E1F449B0E78D8F6E61 /* [CP] Check Pods Manifest.lock */,
+				54A5D3BB236C4221007D98DB /* Sources */,
+				54A5D3BC236C4221007D98DB /* Frameworks */,
+				54A5D3BD236C4221007D98DB /* Resources */,
+				099CA7F71D95CE35D52A3A3B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeisureTime;
+			productName = LeisureTime;
+			productReference = 54A5D3BF236C4221007D98DB /* LeisureTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A5D3B7236C4221007D98DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LT;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = LY;
+				TargetAttributes = {
+					54A5D3BE236C4221007D98DB = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 54A5D3BA236C4221007D98DB /* Build configuration list for PBXProject "LeisureTime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54A5D3B6236C4221007D98DB;
+			productRefGroup = 54A5D3C0236C4221007D98DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54A5D3BE236C4221007D98DB /* LeisureTime */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54A5D3BD236C4221007D98DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A5D3CF236C4223007D98DB /* LaunchScreen.storyboard in Resources */,
+				54A5D3CC236C4223007D98DB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		099CA7F71D95CE35D52A3A3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeisureTime/Pods-LeisureTime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LeisureTime/Pods-LeisureTime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LeisureTime/Pods-LeisureTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D95086E1F449B0E78D8F6E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LeisureTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A5D3BB236C4221007D98DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A5D3DE236C4308007D98DB /* AppDelegate.m in Sources */,
+				54A5D3EB236C47F7007D98DB /* LTFrameWorkHelper.m in Sources */,
+				54A5D3E7236C4681007D98DB /* LTMainViewController.m in Sources */,
+				54A5D3DD236C4308007D98DB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		54A5D3CD236C4223007D98DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A5D3CE236C4223007D98DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54A5D3D3236C4223007D98DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54A5D3D4236C4223007D98DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54A5D3D6236C4223007D98DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 737BDE7901F824E6C7A82E21 /* Pods-LeisureTime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeisureTime/Data/LeisureTime.pch";
+				INFOPLIST_FILE = LeisureTime/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LeisureTime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54A5D3D7236C4223007D98DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 924AF4B469032F513393DDEC /* Pods-LeisureTime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LeisureTime/Data/LeisureTime.pch";
+				INFOPLIST_FILE = LeisureTime/Resource/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.LeisureTime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54A5D3BA236C4221007D98DB /* Build configuration list for PBXProject "LeisureTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A5D3D3236C4223007D98DB /* Debug */,
+				54A5D3D4236C4223007D98DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A5D3D5236C4223007D98DB /* Build configuration list for PBXNativeTarget "LeisureTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A5D3D6236C4223007D98DB /* Debug */,
+				54A5D3D7236C4223007D98DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54A5D3B7236C4221007D98DB /* Project object */;
+}
